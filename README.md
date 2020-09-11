@@ -34,15 +34,24 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-
 ### TODO
+
 [x] Set up Website
+
 [] Set up Netlify Deploy
+
 [x] Tentar mudar path blog -> release notes
+
 [] Mudar Path de docs -> en
+
 [] Criar novo path de docs -> pt
+
 [] criar lista de faqs
+
 [] criar página de contatos
+
 [] Editar homepage de ajuda
+
 [] adicionar dns faq.wonder.money
+
 [] editar layout/css para branding
