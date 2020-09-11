@@ -14,10 +14,6 @@ jobs:
           node-version: 14.x
       - name: Install dependencies
         run: yarn install
-      # - name: Test
-      #   run: npm test
-      #   env:
-      #     CI: true
       - name: Generate build
         run: yarn build
       # Share artifact inside workflow
