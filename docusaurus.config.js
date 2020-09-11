@@ -1,77 +1,81 @@
 module.exports = {
-  title: 'Wonder.money - FAQ',
-  tagline: 'The tagline of my site',
-  url: 'https://faq.wonder.money',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Wonder.money', // Usually your GitHub org/user name.
-  projectName: 'FAQ', // Usually your repo name.
+  title: "Wonder.money - FAQ",
+  tagline: "The tagline of my site",
+  url: "https://faq.wonder.money",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon.ico",
+  organizationName: "Wonder.money", // Usually your GitHub org/user name.
+  projectName: "FAQ", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Wonder.money - FAQ',
+      title: "Wonder.money - FAQ",
       logo: {
-        alt: 'Wonder.money',
-        src: 'img/logo.svg',
+        alt: "Wonder.money",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'release-notes', label: 'Release Notes (Novidades)', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: "release-notes",
+          label: "Release Notes (Novidades)",
+          position: "left",
+        },
+        {
+          href: "https://github.com/facebook/docusaurus",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: "Style Guide",
+              to: "docs/",
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: "Second Doc",
+              to: "docs/doc2/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Twitter",
+              href: "https://twitter.com/docusaurus",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'release-notes',
-              to: 'release-notes',
+              label: "release-notes",
+              to: "release-notes",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "GitHub",
+              href: "https://github.com/facebook/docusaurus",
             },
           ],
         },
@@ -81,26 +85,26 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          path: 'blog',
+          path: "blog",
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-            routeBasePath: 'release-notes', 
-            include: ['*.md', '*.mdx'],
-            postsPerPage: 10,
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          routeBasePath: "release-notes",
+          include: ["*.md", "*.mdx"],
+          postsPerPage: 10,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
