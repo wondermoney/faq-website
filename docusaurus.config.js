@@ -1,6 +1,6 @@
 module.exports = {
   title: "Wonder.money - FAQ",
-  tagline: "The tagline of my site",
+  tagline: "Frequently Asked Questions & Outras Dúvidas",
   url: "https://faq.wonder.money",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -27,8 +27,8 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://wonder.money",
+          label: "Home",
           position: "right",
         },
       ],
@@ -67,20 +67,20 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "Outras Informações",
           items: [
             {
               label: "release-notes",
               to: "release-notes",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Blog",
+              href: "https://blog.wonder.money",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wonder.money - Built with Docusaurus.`,
     },
   },
   presets: [
